@@ -1,10 +1,10 @@
 ## INSTRUCTIONS
 # 1.  get the docket id and change the one that is one line 6
-# 2.  install jsonlite and dplyr if you don't have them. 
+# 2.  install httr, jsonlite and dplyr if you don't have them. 
 # 3.  Run script.  The table of comments will show in the root directory of 
 #     the project and a folder for the docket will contain all the comments as pdfs.
 docket_id <- "EPA-HQ-ORD-2013-0189"
-library(jsonlite);library(dplyr)
+library(httr);library(jsonlite);library(dplyr)
 
 dir.create(docket_id)
 
